@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--m-light-grey);
+}
