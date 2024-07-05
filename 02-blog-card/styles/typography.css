@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    font-family: "Figtree", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.m-body-s {
+    font-size: 12px;
+}
+
+.m-body-m {
+    font-size: 14px;
+}
+
+.m-heading {
+    font-size: 20px;
+}
+
+.m-strong {
+    font-weight: 800;
+}
+
+@media (min-width: 1280px) {
+    .m-body-s {
+        font-size: 14px;
+    }
+    
+    .m-body-m {
+        font-size: 16px;
+    }
+    
+    .m-heading {
+        font-size: 24px;
+    }
+}
+
