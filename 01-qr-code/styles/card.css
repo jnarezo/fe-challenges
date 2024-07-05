@@ -1,4 +1,5 @@
 .card {
+    box-sizing: border-box;
     width: 320px;
     height: 497px;
     padding: 16px;
@@ -15,11 +16,10 @@
     width: 100%;
     height: auto;
     border-radius: var(--m-radius-m);
-    /* overflow: hidden; */
 }
 
 .card-content {
-    padding: 0 16px 0 16px;
+    /* padding: 0 16px 0 16px; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -32,6 +32,6 @@
 }
 
 .card-content-body {
-    padding: 0 8px 0 8px;
+    padding: 0 16px 0 16px;
     color: var(--m-grey);
 }
