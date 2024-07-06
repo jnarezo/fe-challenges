@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.m-body-s {
+    font-size: 14px;
+}
+
+.m-body-m {
+    font-size: 16px;
+}
+
+.m-heading {
+    font-size: 24px;
+}
+
+.m-subtle {
+    font-weight: 300;
+}
+
+.m-strong {
+    font-weight: 600;
+}
